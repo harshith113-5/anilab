@@ -1,0 +1,603 @@
+*
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: rgba(63, 100, 156, 0.219);
+    /* scroll-behavior: smooth; */
+}
+.nav
+{
+    /* background-color: #fff; */
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.navb
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+.logom
+{
+    /* border: 2px solid red; */
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.logo
+{
+    /* border: 2px solid red; */
+    box-shadow: 1px 4px 6px #dbabf3;
+    border-radius: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    height: 50px;
+}
+.logo .img1
+{
+    width: 160px;
+    object-fit: cover;
+    /* object-position: -220px -60px; */
+    align-items: center;
+    /* justify-content: center; */
+    /* position: absolute; */
+}
+.logo .img2
+{
+    width: 120px;  
+    align-items: center;
+    justify-content: center;
+}
+.nb
+{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nb li
+{
+    cursor: pointer;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.nb li:hover
+{
+    color: #a700fa;
+}
+.shapes
+{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    z-index: -1;
+}
+.shapes img
+{
+    /* border: 2px solid red; */
+    height: 190px;
+}
+.ani
+{
+    position: absolute;
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.ani1
+{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    position: absolute;
+    z-index: 0;
+    width: 280px;
+    height: 80px;
+    box-shadow: 2px 5px 4px 0 #dbabf3;
+    border-radius: 30px;
+}
+.ani1 img
+{
+    width: 80px;
+    height: 78px;
+}
+.ani2 img
+{
+    width: 80px;
+    height: 90px;
+}
+.ani3 img
+{
+    width: 80px;
+    height: 90px;
+}
+.ani2
+{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    z-index: 0;
+    width: 280px;
+    height: 80px;
+    box-shadow: 2px 5px 4px 0 #dbabf3;
+    border-radius: 30px;
+}
+.ani3
+{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    z-index: 0;
+    width: 280px;
+    height: 80px;
+    box-shadow: 2px 5px 4px 0 #dbabf3;
+    border-radius: 30px;
+}
+
+.anid
+{
+    /* border: 2px solid red; */
+    height: 150px;
+    /* width: 900px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.line
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+.headm
+{
+    /* border: 2px solid red; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.head
+{
+    /* border: 2px solid red; */
+    height: 200px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.des1_back
+{
+    width: 1000px;
+    opacity: 0.8;
+    /* padding: 40px; */
+    position: absolute;
+    z-index: -1;
+}
+/* .des2_back
+{
+    width: 1000px;
+    opacity: 0.8;
+    padding: 40px;
+}
+.des3_back
+{
+    width: 1000px;
+    opacity: 0.8;
+} */
+.main
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    /* align-items: center; */
+    /* position: relative; */
+}
+.des1
+{
+
+    /* padding: 50px; */
+    position: relative;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* z-index: -1; */
+}
+.card_1
+{
+    background-color: white;
+    /* padding: 50px; */
+    position: absolute;
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    border-radius: 30px;
+}
+.card1
+{
+    
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    /* z-index: 2; */
+    width: 280px;
+    height: 80px;
+    /* box-shadow: 2px 5px 4px 0 #dbabf3; */
+    border-radius: 30px;
+}
+.cardo
+{
+    /* border: 2px solid red; */
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.carde
+{
+    /* border: 2px solid red; */
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.image1 img
+{
+    padding: 20px;
+    height: 300px;
+    border-radius: 30px;
+    
+}
+.mat1
+{
+    width: 270px;
+}
+.mat1In
+{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.videoBack
+{
+    /* border: 2px solid red; */
+    height: 1100px;
+    width: 98%;
+    display: flex;
+    z-index: -1;
+    position: absolute;
+    justify-content: center;
+    /* align-items: center; */
+    /* object-fit: fill; */
+}
+.videoBack video
+{
+    opacity: 0.4;
+    width: 120%;
+    height: 800px;
+}
+.gitin
+{
+    /* border: 2px solid red; */
+    padding: 100px;
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gitin h2
+{
+    font-size: 38px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    
+}
+.gitin p
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #a700fa;
+}
+
+.contac
+{
+    /* border: 2px solid red; */
+    display: flex;
+}
+.heading
+{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 300px;
+}
+.heading1
+{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 300px;
+}
+.heading img
+{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+}
+.yn
+{
+    /* border: 2px solid red; */
+    height: 100px;
+}
+.yn img
+{
+    height: 120px;
+}
+.ynm
+{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 400px;
+}
+.ync
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact
+{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid red; */
+    width: 520px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+form
+{
+    /* border: 2px solid red; */
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 340px;
+}
+form input
+{
+    border-radius: 10px;
+    border: 2px solid rgba(50, 72, 197, 0.215);
+    height: 50px;
+}
+form label
+{
+    color: rgba(20, 50, 222, 0.959);
+    font-size: 18px;
+}
+form button
+{
+    width: 100%;
+    background-color: rgb(69, 69, 141);
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+}
+form .name
+{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+form .name input
+{
+    border: 2px solid rgba(50, 72, 197, 0.215);
+    background: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+.conm
+{
+    padding-left: 150px;
+    padding-top: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* height: 200px; */
+}
+.con
+{
+    background-color: white;
+    width: 30%;
+    height: 500px;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+}
+.conImg img
+{
+    width: 600px;
+    height: 500px;
+    padding-right: 50px;
+    /* padding-top: 50px; */
+}
+
+.logobm
+{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 50px; */
+    align-items: center;
+    /* position: absolute; */
+}
+.qoute
+{
+    /* border: 2px solid red; */
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rule
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+.footer
+{
+    /* border: 2px solid red; */
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.meet
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 200px;
+}
+.meet .t1
+{
+    height: 50px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+}
+.meet ul li
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* width: 100px; */
+}
+ul .h1
+{
+    height: 60px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+.meet ul li
+{
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+}
+.sub
+{
+    /* border: 2px solid red; */
+    width: 330px;
+}
+.sub .t2
+{
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+}
+.sub .t2 h3
+{
+    padding-top: 15px;
+}
+.submit
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu
+{
+    /* border: 2px solid red; */
+    width: 200px;
+}
+.menu .t3
+{
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+}
+.menu ul a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+}
+.social
+{
+    /* border: 2px solid red; */
+    width: 200px;
+}
+.social .t4
+{
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+}
+.social ul a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(53, 53, 96);
+}
+.cr
+{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    font-size: 24px;
+}
+.foot
+{
+    /* border: 2px solid red; */
+    height: 580px;
+}
